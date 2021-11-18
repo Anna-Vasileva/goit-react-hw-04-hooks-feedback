@@ -1,6 +1,4 @@
 import { useState } from "react";
-// import React, { Component } from "react";
-// import Feedback from "./components/Feedback";
 import Statistics from "./components/Statistics";
 import FeedbackOptions from "./components/FeedbackOptions";
 import Section from "./components/Section";
@@ -58,6 +56,7 @@ function App() {
     </>
   );
 }
+export default App;
 
 // class OldApp extends Component {
 //   state = {
@@ -107,4 +106,3 @@ function App() {
 //     );
 //   }
 // }
-export default App;

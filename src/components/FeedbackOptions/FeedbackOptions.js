@@ -15,17 +15,6 @@ const FeedbackOptions = ({ options, onLeaveFeedback }) => {
       </button>
     );
   });
-  // <>
-  //   <button onClick={() => onLeaveFeedback("good")} className={s.btn}>
-  //     Good
-  //   </button>
-  //   <button onClick={() => onLeaveFeedback("neutral")} className={s.btn}>
-  //     Neutral
-  //   </button>
-  //   <button onClick={() => onLeaveFeedback("bad")} className={s.btn}>
-  //     Bad
-  //   </button>
-  // </>
 };
 FeedbackOptions.propTypes = {
   options: PropTypes.arrayOf(PropTypes.string).isRequired,
